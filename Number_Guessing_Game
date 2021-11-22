@@ -29,8 +29,8 @@ while True:
         break
    
     elif user_guess > r:
-        print("You were above the number!")
+        print("You were above the number,Please select the number smaller than the", user_guess)
     else:
-        print("You were below the number!")
+        print("You were below the number,Please select the number greater than the", user_guess)
             
 print("You got it in", guesses, "guesses")    
